@@ -1,0 +1,7 @@
+Run the following command on your terminal, the terminal must be located on the Othello folder:
+    - python othello.py
+
+You will need to install python on your computer to accept the command above.
+If you don't have python here is a link so you can install it:
+    - https://www.anaconda.com/products/distribution
+    
