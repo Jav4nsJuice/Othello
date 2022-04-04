@@ -16,7 +16,6 @@ The objective of programing these programs is to create a AI which plays Othello
 After Othello is working correctly and the AI working correctly and is able to play Othello as a player, we have to do the following experiments and modifications:
 -  Calculate the average time the AI takes to make its move.
 -  Make sure the AI is making a move in less than 10 seconds.
--  Get the total number of expanded states by the AI.
 
 That is basicly the description of the problem and objectives.
 
@@ -50,7 +49,6 @@ This best flank heuristic consists of making a move which flanks more enemy toke
 For Example:
 
 If we reach a "Cut off" state and we have a move #1 which flanks 2 enemy tokens and a move #2 which flanks 4 enemy tokens, the next move will be the move #2 because it has a bigger number of flanks done.
-(We didnt implement this heuristic)
 
 ### Movility strategy heuristic
 
@@ -60,7 +58,7 @@ bad moves in the late game.
 
 When we are in the late game the heuristic changes to the highest score heuristic
 
-The heuristics can be changed in the Settings class. (setting the heuristic methods defined in the heuristicFunctionCollection class)
+The heuristics can be changed in the Settings class. (setting the heuristic methods defined in the heuristicFunctions class)
 
 
 ## Results
@@ -70,7 +68,7 @@ The heuristics can be changed in the Settings class. (setting the heuristic meth
 The average time the AI takes to make a move is:  between 6 and 11 seconds
 
 
-## Conclution
+## Conclusions
 
 We have observed that the heuristic is very important.
 
